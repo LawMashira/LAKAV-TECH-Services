@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import TopNavbar from './components/landing/TopNavbar';
 import ReactGA from 'react-ga'; // Import ReactGA
 
-const TRACKING_ID = "G-2PSHT2P6P0"; // Replace with your Google Analytics Tracking ID
+const TRACKING_ID = "G-BKGFJFK34S"; // Replace with your Google Analytics Tracking ID
 
 
 const App: React.FC = () => {
