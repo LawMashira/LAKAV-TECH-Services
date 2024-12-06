@@ -26,7 +26,7 @@ const Hero = () => {
   const { ref, classNames } = useAnimateOnScroll('opacity-0', 'opacity-100 transition-all duration-1000 ease-out');
 
   return (
-    <section id="hero" className={`bg-red-600 text-white py-44 mt-12  ${classNames}`} 
+    <section id="hero" className={`bg-red-600 text-white py-44 mt-10  ${classNames}`} 
     style={{ backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
     ref={ref}>
       <div className="max-w-7xl mx-auto text-center">
